@@ -3642,7 +3642,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-use: ^17.4.0
-    semver: ^7.3.8
+    semver: ^7.5.2
     svelte: ^3.53.1
     tsconfig-paths-webpack-plugin: ^3.5.2
     vertx: ^0.0.1-security
@@ -21009,7 +21009,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.8, semver@npm:~7.3.0":
+"semver@npm:^7.5.2":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
+  languageName: node
+  linkType: hard
+
+"semver@npm:~7.3.0":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
   dependencies:
